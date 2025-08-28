@@ -1,9 +1,9 @@
 # arguably — tiny decorator-based CLI
-A lightweight, readable, decorator-first library on top of 'argsparse' that helps you quickly create CLI apps by wrapping functions with decorators.
+A lightweight, readable, decorator-first library on top of 'argparse' that helps you quickly create CLI apps by wrapping functions with decorators.
 
 
 ## API
-- `@command(name)` — register a subcommand
+- `@command(name)` — register a command
 - `@arg(param_name, cli_name=None, *, type=str, default=None, short=None)` — named argument
 - `@parg(param_name, *, type=str)` — positional argument
 - `@flag(flag_name, *, short=None, default=False)` — boolean flag
